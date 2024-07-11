@@ -1,2 +1,0 @@
-msg_serialize:send_then_result:state_machine
--DCATKIN_DEVEL_PREFIX=/home/van/workspace/commute_ws/devel -DCMAKE_INSTALL_PREFIX=/home/van/workspace/commute_ws/install -G Unix Makefiles

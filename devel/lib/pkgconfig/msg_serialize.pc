@@ -1,8 +1,0 @@
-prefix=/home/van/workspace/commute_ws/devel
-
-Name: msg_serialize
-Description: Description of msg_serialize
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
