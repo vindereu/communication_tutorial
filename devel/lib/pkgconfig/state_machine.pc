@@ -1,0 +1,8 @@
+prefix=/home/van/workspace/commute_ws/devel
+
+Name: state_machine
+Description: Description of state_machine
+Version: 0.0.0
+Cflags: -I/home/van/workspace/commute_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

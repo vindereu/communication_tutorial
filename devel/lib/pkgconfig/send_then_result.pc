@@ -1,0 +1,8 @@
+prefix=/home/van/workspace/commute_ws/devel
+
+Name: send_then_result
+Description: Description of send_then_result
+Version: 0.0.0
+Cflags: -I/home/van/workspace/commute_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
