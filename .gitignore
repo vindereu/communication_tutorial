@@ -1,0 +1,6 @@
+# Build results
+build
+devel
+src/CMakeLists.txt
+.catkin_workspace
+
