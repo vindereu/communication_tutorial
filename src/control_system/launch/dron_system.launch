@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node name="height_sensor" pkg="control_system" type="height_sensor" />
+    <node name="gps_sensor" pkg="control_system" type="gps_sensor" />
+    <node name="controller" pkg="control_system" type="controller" />
+    <node name="drone" pkg="control_system" type="drone" />
+    <node name="remote_control" pkg="control_system" type="commander"
+          output="screen" required="true" />
+</launch>
