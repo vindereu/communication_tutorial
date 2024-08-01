@@ -17,7 +17,7 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "drone");
     ros::NodeHandle nh;
 
-    ros::Publisher pub = nh.advertise<geometry_msgs::Pose>("drone_attitude", 10, callback);
+    ros::Publisher pub = nh.advertise<geometry_msgs::Pose>("drone_attitude", 10);
     geometry_msgs::Pose attitudeMsg;
     attitudeMsg.position.x = 0;
     attitudeMsg.position.y = 0;

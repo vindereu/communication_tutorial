@@ -13,7 +13,7 @@ void callback(geometry_msgs::Pose msg)
     std_msgs::Float64 outMsg;
     
     //Noise Process
-	double noise = 0; //(rand()%20 - 10) / 1000.0;  // +-0.01
+	double noise = (rand()%20 - 10) / 1000.0;  // +-0.01
 	outMsg.data = msg.position.z + noise;
     
     // Publish
