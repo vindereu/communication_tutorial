@@ -261,7 +261,7 @@ private:
         }
 
         size_t width[2] = {std::min(readIdx,writeIdx)*2 + 1,
-                           abs((long long)(readIdx-writeIdx)-1)*2 + 1};
+                           (abs((long long)(readIdx-writeIdx))-1)*2 + 1};
 
         char name[2];
         if (readIdx < writeIdx) {
